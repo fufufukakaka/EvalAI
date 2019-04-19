@@ -9,6 +9,6 @@ RUN pip install -r prod.txt
 
 ADD . /code
 
-EXPOSE 8000
+EXPOSE 9510
 
 CMD ["sh", "/code/docker/prod/django/container-start.sh"]

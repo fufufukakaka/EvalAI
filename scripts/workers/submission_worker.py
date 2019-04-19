@@ -181,7 +181,7 @@ def create_dir_as_python_package(directory):
 def return_file_url_per_environment(url):
 
     if DJANGO_SETTINGS_MODULE == "settings.dev":
-        base_url = "http://{0}:8000".format(DJANGO_SERVER)
+        base_url = "http://{0}:9510".format(DJANGO_SERVER)
         url = "{0}{1}".format(base_url, url)
 
     elif DJANGO_SETTINGS_MODULE == "settings.test":

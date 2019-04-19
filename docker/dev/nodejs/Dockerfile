@@ -20,4 +20,4 @@ RUN bower install --allow-root
 
 CMD ["gulp", "dev:runserver"]
 
-EXPOSE 8888
+EXPOSE 8080

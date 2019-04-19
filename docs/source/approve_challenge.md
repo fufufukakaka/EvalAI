@@ -6,16 +6,17 @@ Let's assume that we want to approve a challenge with name `Random Number Genera
 
 ### Step 1: Approve challenge using Django Admin
 
-1. Login to EvalAI's [django admin panel](http://localhost:8000/admin/challenges/challenge/), and you will see the list of challenges
-    ![](https://i.imgur.com/FRi5ofa.png)
+1. Login to EvalAI's [django admin panel](http://localhost:9510/admin/challenges/challenge/), and you will see the list of challenges
+   ![](https://i.imgur.com/FRi5ofa.png)
 
 2. Click on the challenge that you want to approve and scroll to bottom to check the following two fields.
-    * Approved By Admin
-    * Publically Available
 
-    ![](https://i.imgur.com/l7fQrxX.png)
+   - Approved By Admin
+   - Publically Available
 
-    Now, save the challenge. The challenge has been successfully approved by the administrator and is also publicly visible to the users.
+   ![](https://i.imgur.com/l7fQrxX.png)
+
+   Now, save the challenge. The challenge has been successfully approved by the administrator and is also publicly visible to the users.
 
 ### Step 2: Reload Submission Worker
 
@@ -23,7 +24,7 @@ Submission worker is a key component of EvalAI. Since you have recently approved
 
 Run the following command:
 
-    docker-compose restart worker 
+    docker-compose restart worker
 
 **Submission worker has been successfully reloaded!**
 

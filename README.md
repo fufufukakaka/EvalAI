@@ -1,6 +1,6 @@
 <p align="center"><img width="65%" src="docs/source/\_static/img/evalai_logo.png" /></p>
 
-------------------------------------------------------------------------------------------
+---
 
 [![Join the chat at https://gitter.im/Cloud-CV/EvalAI](https://badges.gitter.im/Cloud-CV/EvalAI.svg)](https://gitter.im/Cloud-CV/EvalAI?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/Cloud-CV/EvalAI.svg?branch=master)](https://travis-ci.org/Cloud-CV/EvalAI)
@@ -9,7 +9,6 @@
 [![Code Health](https://landscape.io/github/Cloud-CV/EvalAI/master/landscape.svg?style=flat)](https://landscape.io/github/Cloud-CV/EvalAI/master)
 [![Code Climate](https://codeclimate.com/github/Cloud-CV/EvalAI/badges/gpa.svg)](https://codeclimate.com/github/Cloud-CV/EvalAI)
 [![Documentation Status](https://readthedocs.org/projects/markdown-guide/badge/?version=latest)](http://evalai.readthedocs.io/en/latest/)
-
 
 EvalAI is an open source web application that helps researchers, students and data-scientists to create, collaborate and participate in various AI challenges organized round the globe.
 
@@ -46,25 +45,26 @@ The steps are:
 
 2. Get the source code on to your machine via git.
 
-    ```shell
-    git clone https://github.com/Cloud-CV/EvalAI.git evalai && cd evalai
-    ```
+   ```shell
+   git clone https://github.com/Cloud-CV/EvalAI.git evalai && cd evalai
+   ```
 
 3. Build and run the Docker containers. This might take a while.
 
-    ```
-    docker-compose up --build
-    ```
+   ```
+   docker-compose up --build
+   ```
 
-4. That's it. Open web browser and hit the url [http://127.0.0.1:8888](http://127.0.0.1:8888). Three users will be created by default which are listed below -
-    
-    **SUPERUSER-** username: `admin` password: `password`  
-    **HOST USER-** username: `host` password: `password`  
-    **PARTICIPANT USER-** username: `participant` password: `password`
+4. That's it. Open web browser and hit the url [http://127.0.0.1:8080](http://127.0.0.1:8080). Three users will be created by default which are listed below -
 
-If you are facing any issue during installation, please see our [common errors during installation page](https://evalai.readthedocs.io/en/latest/faq(developers).html#common-errors-during-installation).
+   **SUPERUSER-** username: `admin` password: `password`  
+   **HOST USER-** username: `host` password: `password`  
+   **PARTICIPANT USER-** username: `participant` password: `password`
+
+If you are facing any issue during installation, please see our [common errors during installation page](<https://evalai.readthedocs.io/en/latest/faq(developers).html#common-errors-during-installation>).
 
 ## Citing EvalAI
+
 If you are using EvalAI for hosting challenges, please cite the following technical report:
 
 ```

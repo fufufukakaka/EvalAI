@@ -275,7 +275,7 @@ function startServer() {
     connect.serverClose();
     connect.server({
         root: 'frontend/',
-        port: 8888,
+        port: 8080,
         host: '0.0.0.0',
         livereload: true,
         middleware: function(connect) {
