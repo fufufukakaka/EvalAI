@@ -20,14 +20,14 @@ DATABASES = {
             "POSTGRES_PASSWORD", "postgres"
         ),  # noqa: ignore=F405
         "HOST": os.environ.get(  # noqa: ignore=F405
-            "POSTGRES_HOST", "localhost"
+            "POSTGRES_HOST", "35.200.58.176"
         ),  # noqa: ignore=F405
         "PORT": os.environ.get("POSTGRES_PORT", 5432),  # noqa: ignore=F405
     }
 }
 
 # E-Mail Settings
-EMAIL_HOST = "localhost"
+EMAIL_HOST = "35.200.58.176"
 EMAIL_PORT = 1025
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 

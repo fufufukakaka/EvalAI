@@ -37,7 +37,7 @@ django.setup()
 DJANGO_SETTINGS_MODULE = os.environ.get(
     "DJANGO_SETTINGS_MODULE", "settings.dev"
 )
-DJANGO_SERVER = os.environ.get("DJANGO_SERVER", "localhost")
+DJANGO_SERVER = os.environ.get("DJANGO_SERVER", "35.200.58.176")
 LIMIT_CONCURRENT_SUBMISSION_PROCESSING = os.environ.get(
     "LIMIT_CONCURRENT_SUBMISSION_PROCESSING"
 )

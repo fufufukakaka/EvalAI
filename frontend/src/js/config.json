@@ -1,7 +1,7 @@
 {
   "local": {
     "EnvironmentConfig": {
-      "API": "http://localhost:9510/api/"
+      "API": "http://35.200.58.176:9510/api/"
     }
   },
   "staging": {
