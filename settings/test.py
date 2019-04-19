@@ -13,7 +13,7 @@ DATABASES = {
             "POSTGRES_PASSWORD", "postgres"
         ),  # noqa: ignore=F405
         "HOST": os.environ.get(  # noqa: ignore=F405
-            "POSTGRES_HOST", "35.200.58.176"
+            "POSTGRES_HOST", "localhost"
         ),  # noqa: ignore=F405
         "PORT": os.environ.get("POSTGRES_PORT", 5432),  # noqa: ignore=F405
     }
